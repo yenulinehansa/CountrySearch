@@ -1,7 +1,7 @@
 
 
 
-/*function SearchName() {
+function SearchName() {
     let countryName = document.getElementById("name").value;
     fetch("https://restcountries.com/v3.1/name/" + countryName)
         .then(res => res.json())
@@ -22,10 +22,11 @@
 
         })
 
-}*/
-
+}
+/*
 localStorage.setItem("name", "saman");
 
 let customerName = localStorage.getItem("name");
 
 console.log(customerName);
+*/
